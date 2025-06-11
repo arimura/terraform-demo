@@ -5,10 +5,10 @@ provider "aws" {
 
 # Create S3 bucket
 resource "aws_s3_bucket" "hoge" {
-  bucket = "hoge2025062031"
+  bucket = "hoge2025062131"
 
   tags = {
-    Name        = "hoge2025062031"
+    Name        = "hoge2025062131"
     Environment = var.environment
   }
 }
